@@ -53,3 +53,8 @@ pipe(
     num_inference_steps=1,
     guidance_scale=3.5 
 )
+
+# Stream A (Image) Input Shape: torch.Size([1, 1024, 3072])
+# Computed Key Shape: torch.Size([1, 1024, 3072])
+# RoPE (Cos) Shape: torch.Size([1536, 128])
+# RoPE (Sin) Shape: torch.Size([1536, 128])
